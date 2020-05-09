@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css.css">
+    <title>Rock! Paper! Scissors!</title>
+</head>
+<div class ="container">
+<body>
+    
+<h1>Rock! Paper! Scissors!</h1>
+<div id ="welcomeScreen">
+   <h2> What is your name?</h2>
+    <form id = "nameForm">
+        <label for="userName">
+            My name is: 
+            <input type= "text" id="userName">
+        </label>
+        <input type="submit" value="Let's Play!">
+    </form> <br/>
+   
+</div>
+
+<div id="gameScreen" class="hidden">
+<form id = gameForm>
+    <label for="userInput">
+        Enter your move: 
+        <input type= "text" id="userInput">
+    </label>
+    <input type = "submit" value="Shoot!">
+</form> <br/>
+<p id="history"></p>
+    
+</div>
+    <script src="index.js"></script>
+
+</body>
+</div>
+</html>
